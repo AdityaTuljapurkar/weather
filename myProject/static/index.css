@@ -1,0 +1,44 @@
+body{
+    /* color: aqua; */
+    font-size: 20px;
+    background-color:rgb(241, 205, 133);
+}
+#navbar {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    padding:1em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    font-family: "Rubik", sans-serif;
+    font-weight:800;
+    font-style: italic;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.search>form{
+    padding: 1em;
+ 
+}
+.search>form>input{
+    width: 100%;
+    
+    padding: 0.5em 6em;
+    margin: oem 2em;
+}
+.search>form>button{
+    padding: 0em 1em;
+    position:relative;
+    left: 38em;
+    border-radius: 2em;
+
+}
+.search>form>button:hover{
+    background-color: rgba(0, 26, 255, 0.684);
+    color: thistle;
+}
